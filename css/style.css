@@ -7,24 +7,28 @@
 
 .container
 	{
-     margin: 363px auto;
-	width:964px;	
+	margin:0 auto;
+    padding:60px 0;
+	width:1170px;	
 	background-color:#fff;
 	/* display:flex; */
 	
 	}
 .banner{
 	display:flex;
-	width:100%;
-}	
+	
+	justify-content:space-between;
+}
 .box1
 	{
-     margin-right: 45px;		
-	width:50%;
-	flex-grow:1;
+     margin-right:0;		
+	width:45%;
+	
 	border: 1px solid #fafafac4;
     box-shadow: 3px 7px 13px #beb2b242;
-
+	position:relative;
+	padding:20px 15px 30px 50px;
+	
 	}
 .box1 .role1
 {
@@ -39,33 +43,30 @@
 	font-weight:700;
 	font-family: system-ui;
 }
-.box2
+
+
+ .image1 img
 {
-	margin-right: 45px;
-	width:50%;
-	border: 1px solid #fafafac4;
-    box-shadow: 3px 7px 13px #beb2b242;
-}
-.image1 img
-{
-	display:inline-block;
+	display: block;
 	width:70px;
-    position: absolute;
-    top: 338px;
-    left: 230px;
+	border-radius:10px;
+ 
+} 
+
+.image1
+{
+	position:absolute;
+	top:15px;
+	left:-35px;
+	
+	
 }
+
 .fa
 {
 	color:#53a5e0;
 }
 
-.image2 img 
-{	display: inline-block;
-    width: 70px;
-    position: absolute;
-    top: 344px;
-    left: 720px;
-}
 /* .details-left b
 { 	color:#53a5e0;
 	font-size:25px;
@@ -76,7 +77,7 @@
 	 
 }
 
-.box2 .role2
+.box1 .role1
 {
 	font-family: sans-serif;
     font-size: 13px;
@@ -84,26 +85,15 @@
 	
 }
 
-.box2 .name-right
+.box1 .name-left
 {
 	font-size:20px;
 	font-weight:700;
 	font-family: system-ui;
 }
-.nav2
-{
-	
-	margin: 0 10px 0 31px;
-}
 
-/* .nav1
 
-{
-	
-	    margin: 0 10px 0 31px;
-} */
-
-.details-right
+.details-left
 {
 	 font-style:italic;
 	 
